@@ -1,0 +1,59 @@
+
+.btn{
+    background: tomato;
+    padding: 15px;
+    border: #dfdfea;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.modal{
+    display: none;
+
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+}
+
+.modal-content{
+    margin:20% auto;
+    background-color: #f4f4f4;
+    padding:20px;
+    width: 60%;
+
+    animation-name:popup;
+    animation-duration: 2s;
+}
+
+.closeBtn{
+    color:#ccc;
+    float: right;
+    font-size: 30px;
+}
+
+.closeBtn:hover{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@keyframes popup{
+    from{
+        opacity: 0;margin-top:20px;
+    }
+    to{
+        opacity: 1;
+    }
+}
