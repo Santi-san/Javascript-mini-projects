@@ -1,2 +1,3 @@
 # Vanilla-Javascript
-vanilla javascript projects
+
+Mini projects of vanilla javascript and jquery library...
