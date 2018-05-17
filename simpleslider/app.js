@@ -1,4 +1,4 @@
-
+//simple slider
 
 
 var i = 0;
