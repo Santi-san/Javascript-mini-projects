@@ -1,3 +1,3 @@
-# Vanilla-Javascript
+# Javascript
 
 Mini projects of vanilla javascript and jquery library...
